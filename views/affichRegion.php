@@ -1,4 +1,5 @@
 <?php
+//J'inclus le fichier du traitement de ma page
     include_once("../controllers/regionCtrl.php");
 ?>
 <!DOCTYPE html>
