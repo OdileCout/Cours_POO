@@ -12,6 +12,7 @@
     <title>Page région</title>
 </head>
 <body>
+    //Ici le corps de ma page commence
 <h1>Programmation Orientée Objet</h1>
     <div class="show">
         <?php foreach($les_regions as $cle => $region){ ?>
