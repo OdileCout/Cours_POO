@@ -10,9 +10,13 @@ class User extends Globals{
     private $avatar = "";
     private $active = 0;
     private $connexion = null;
-    //Cette methode retourne les utilisateurs avec leur ville
+    // public function __construct($host,$dbname, $user, $mdpBdd)
+    // {
+    //     $this->connexion = new PDO('mysql:host='.$host.';dbname='.$dbname.';charset=utf8;', $user, $mdpBdd);
+    //     $this->connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    // }
     public function afficherUser(){
-        $pdostat = $this->connexion()->query("SELECT email, pseudo, name FROM utilisateurs INNER JOIN cities ON utilisateurs.id_citie = cities.id");
+        $pdostat = $this->connexion()->query("SELECT email, pseudo, cities.name FROM utilisateurs INNER JOIN cities ON utilisateurs.id_citie = cities.id");
         $values = $pdostat->fetchAll(PDO::FETCH_ASSOC);
         return $values;
     }
