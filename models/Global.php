@@ -7,6 +7,7 @@ class Globals{
     public function setTable($table){
         return $this->tables = $table;
     }
+    //Cette methode retourne la connexion avec la base de données
     protected function connexion(){
         $pdo = new PDO('mysql:host=localhost;dbname=blogville;charset=utf8;', 'root', '');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

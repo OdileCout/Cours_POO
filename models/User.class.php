@@ -10,6 +10,7 @@ class User extends Globals{
     private $avatar = "";
     private $active = 0;
     private $connexion = null;
+    //Cette methode retourne les utilisateurs avec leur ville
     public function afficherUser(){
         $pdostat = $this->connexion()->query("SELECT email, pseudo, name FROM utilisateurs INNER JOIN cities ON utilisateurs.id_citie = cities.id");
         $values = $pdostat->fetchAll(PDO::FETCH_ASSOC);
