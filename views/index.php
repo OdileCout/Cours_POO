@@ -13,6 +13,7 @@
     </head>
     <body>
         <h1>Programmation Orientée Objet</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsam et molestias eligendi architecto rerum libero quisquam. Distinctio asperiores itaque quis blanditiis laborum, labore, aliquid illo quo minus cum id.</p>
         <div class="show">
             <?php foreach($users as $cles => $values){ ?>
                 <div class="card">
