@@ -28,7 +28,6 @@ include_once("../controllers/indexCtrl.php");
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident vero numquam in ipsum delectus similique impedit nam vitae ducimus labore dolor veritatis tempora, sint dolore reiciendis maxime, dicta quod non?</p>
     <ul>
         <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, voluptates repellat quibusdam aspernatur asperiores unde tempora ea fugiat ullam reiciendis inventore voluptatibus quis voluptatum amet explicabo accusamus tempore ad nulla?</li>
-        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, voluptates repellat quibusdam aspernatur asperiores unde tempora ea fugiat ullam reiciendis inventore voluptatibus quis voluptatum amet explicabo accusamus tempore ad nulla?</li>
     </ul>
 </body>
 
